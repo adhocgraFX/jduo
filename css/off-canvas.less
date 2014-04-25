@@ -1,0 +1,167 @@
+// vertical sidebars
+.sidebar {
+	background: whitesmoke;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	z-index: 1000;
+}
+
+// Vertical sidebar and nav that slides from the left or right
+// krumme Zahl: 320 px / 16 = 20em - 4em für buttons = 16em
+
+nav {
+	left: -16em;
+	width: 16em;
+
+	&.sidebar-open {
+		left: -16em;
+	}
+}
+
+aside {
+	right: -16em;
+	width: 16em;
+
+	&.sidebar-open {
+		right: -16em;
+	}
+}
+
+/* Push classes applied to the body */
+.sidebar-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+// für links
+.sidebar-push-toright {
+	left: 16em;
+}
+
+// für rechts
+.sidebar-push-toleft {
+	left: -16em;
+}
+
+// Transitions
+.sidebar,
+.sidebar-push {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.wrapper-push, .wrapper {
+	margin: 0 auto;
+	padding: 0;
+}
+
+// buttons
+#showLeftPush {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#showRightPush {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#showLeftPush, #showRightPush {
+	border: none;
+	background: lightslategray;
+	color: white;
+	padding: .1em;
+	display: block;
+	width: 4em;
+	height: 4em;
+	cursor: pointer;
+	margin: 0;
+	font-size: 1em;
+
+	&:hover {
+		background: slategray;
+	}
+
+	&.active {
+		background: darkslategray;
+	}
+
+	&.disabled {
+		background: gray;
+		pointer-events: none;
+	}
+}
+
+// media queries
+@media screen and (min-width: 30em) {
+
+	nav {
+		left: -26em;
+		width: 26em;
+
+		&.sidebar-open {
+			left: -26em;
+		}
+	}
+
+	aside {
+		right: -26em;
+		width: 26em;
+
+		&.sidebar-open {
+			right: -26em;
+		}
+	}
+
+	// für links
+	.sidebar-push-toright {
+		left: 26em;
+	}
+
+	// für rechts
+	.sidebar-push-toleft {
+		left: -26em;
+	}
+}
+
+
+@media screen and (min-width: 48em){
+
+	.sidebar {
+		position: relative;
+	}
+
+	nav {
+		left: 0;
+		width: 100%;
+	}
+
+	aside {
+		right: 0;
+		width: 38.2%; // goldener schnitt
+	}
+
+	.main {
+		width: 61.8%; // goldener schnitt
+	}
+
+	// buttons
+	#showLeftPush {
+		display: none;
+		width:0;
+		height: 0;
+	}
+
+	#showRightPush {
+		display: none;
+		width:0;
+		height: 0;
+	}
+}

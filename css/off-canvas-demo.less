@@ -1,0 +1,154 @@
+// allg stile & farben
+// nur für demo
+header {
+	h1 {
+		margin: 0;
+		padding: .65em 0;
+		text-align: center;
+		font-weight: 300;
+		font-size: 1.5em;
+	}
+}
+
+article {
+
+	h3 {
+		font-weight: 700;
+		text-align: left;
+	}
+}
+
+h2 {
+	margin: 0;
+	padding: 1em;
+	text-align: center;
+	font-weight: 300;
+}
+
+.logo {
+	margin: -1em !important;
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	height: 4em;
+}
+
+header {
+	height: 4em;
+	background: gainsboro;
+}
+
+nav {
+
+}
+
+aside {
+
+}
+
+footer {
+	background: @clouds-dark;
+}
+
+section {
+	&.head_row {
+		background: wheat;
+	}
+
+	&.bottom_row {
+		background: goldenrod;
+	}
+}
+
+article {
+	//padding: 1em;
+}
+
+nav {
+
+	ul.menu-style {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+
+		li {
+			margin: 0;
+
+			&.active {
+				background: @clouds !important;
+			}
+
+			a {
+				color: @concrete-dark;
+				display: block;
+				padding: .5em 1em;
+				border-bottom: 1px solid @gainsboro-light;
+
+				&:hover {
+					color: @concrete-darker;
+					background: @clouds-dark !important;
+					text-decoration: none !important;
+				}
+
+				&:focus, &:active {
+					color: @whitesmoke;
+					background: @concrete !important;
+				}
+			}
+		}
+	}
+}
+
+// media queries // 48 x 16 = 768
+@media screen and (min-width: 48em){
+
+	.wrapper-push {
+		width: 90%;
+		max-width: 55em;
+	}
+
+	header {
+		height: 5em;
+		background: gainsboro;
+
+		h1 {
+			margin: 0;
+			padding: .5em;
+			text-align: center;
+			font-weight: 300;
+			font-size: 2em;
+		}
+	}
+
+	.logo {
+		height: 5em;
+	}
+
+	nav {
+		text-transform: uppercase;
+		text-align: center;
+
+		ul.menu-style {
+			display: inline-block;
+			zoom: 1;
+			*display: inline;
+
+			li {
+				float: left;
+
+				a {
+					padding: 1em;
+					border-bottom: 0px solid transparent;
+				}
+			}
+		}
+	}
+}
+/*
+@media screen and (min-width: 80em){
+
+	.wrapper-push {
+		width: 80%;
+	}
+}
+*/
