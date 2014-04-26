@@ -101,6 +101,40 @@ aside {
 	}
 }
 
+// fallback / via modernizr
+.no-js > {
+
+	#showLeftPush, #showRightPush {
+		.visuallyhidden
+	}
+
+	nav, aside {
+		float: left;
+		width: 100%;
+		position: relative;
+		left: inherit;
+		right: inherit;
+	}
+
+	@media screen and (min-width: 48em) {
+		aside {
+			width: 38.2%; // goldener schnitt
+		}
+	}
+}
+
+//	H5BP helper classes / siehe auch j-basics.less
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
 // media queries
 @media screen and (min-width: 30em) {
 
@@ -133,7 +167,7 @@ aside {
 	}
 }
 
-@media screen and (min-width: 48em){
+@media screen and (min-width: 48em) {
 
 	.sidebar {
 		position: relative;
@@ -154,23 +188,7 @@ aside {
 	}
 
 	// buttons
-	#showLeftPush {
+	#showLeftPush, #showRightPush {
 		.visuallyhidden
 	}
-
-	#showRightPush {
-		.visuallyhidden
-	}
-}
-
-//	H5BP helper classes
-.visuallyhidden {
-	border: 0;
-	clip: rect(0 0 0 0);
-	height: 1px;
-	margin: -1px;
-	overflow: hidden;
-	padding: 0;
-	position: absolute;
-	width: 1px;
 }

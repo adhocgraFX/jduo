@@ -39,6 +39,10 @@ h2 {
 	background: @gainsboro;
 }
 
+.no-js .info {
+	.visuallyhidden
+}
+
 aside {
 
 }
@@ -184,7 +188,11 @@ nav {
 	}
 
 	aside {
-		padding-top: 2em;
+		padding-top: 2em !important;
+	}
+
+	.no-js > aside {
+		padding-top: 2em !important; // nicht so elegant
 	}
 }
 
