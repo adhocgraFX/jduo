@@ -21,7 +21,7 @@
 <body class="sidebar-push">
 
 <div class="wrapper block-group">
-    <header>
+    <header role="banner">
         <!-- Class "sidebar-open" gets applied to sidebar and "sidebar-push-toleft" or "sidebar-push-toright" to the body -->
         <button id="showLeftPush"><span class="fa fa-bars fa-2x"></span></button>
         <div class="logo">
@@ -29,21 +29,23 @@
         </div>
         <button id="showRightPush"><span class="fa fa-search fa-2x"></span></button>
     </header>
-    <nav class="sidebar" id="sidebar-s1">
+    <nav class="sidebar" id="sidebar-s1" role="navigation">
+        <div class="info">
+            <h4>nav</h4>
+        </div>
         <ul class="menu-style">
             <li><a href="https://twitter.com/" target="_blank" title="twitter"><span class="fa fa-twitter fa-fw"></span> twitter</a></li>
             <li><a href="https://plus.google.com/" target="_blank" title="google plus"><span class="fa fa-google-plus fa-fw"></span> google plus</a></li>
             <li><a href="https://github.com/" target="_blank" title="github"><span class="fa fa-github fa-fw"></span> github</a></li>
             <li><a href="https://www.facebook.com/" target="_blank" title="facebook"><span class="fa fa-facebook fa-fw"></span> facebook</a></li>
-
         </ul>
     </nav>
-    <section class="head_row">
+    <section class="head_row" role="complementary">
         <h2>section head row</h2>
     </section>
 
 <div class="wrapper-push">
-    <section class="main">
+    <section class="main" role="main">
         <article>
             <h3>article heading</h3>
 
@@ -56,7 +58,7 @@
                 Öffentliche und das Private, Gerüche, Abgase und der Lärm des dunkelnden Limas, und wahrscheinlich
                 noch vieles mehr, haben sich in acht Mittelformatnegativen eingebrannt.</p>
 
-            <p class="bookstyle">Bei den abendlichen Touren durch Barranco glichen viele Situationen Bildern und
+            <p>Bei den abendlichen Touren durch Barranco glichen viele Situationen Bildern und
                 Szenen schon so oder so ähnlich Erlebtem, als wären sie Erinnerungen aus einem Fundus urbaner
                 Erfahrungen, die sich einem unaufhörlich aufdrängten, wie die mit Graffiti besprühte
                 Grundstücksmauer oder die grell beleuchtete und schwer bewachte Militärmauer an der Hauptstraße nach
@@ -79,44 +81,58 @@
         </article>
     </section>
 
-    <aside class="sidebar" id="sidebar-s2">
-        <h3>long sidebar content</h3>
-
-        <p>Ewiges Barranco - pathetisch klingender Name für ein paar Nachtaufnahmen eines Stadtviertels, welches eher
-            morbide und heruntergekommen anmutet - eben wie ein Abgrund/Abhang - als besonders für die Ewigkeit
-            bestimmt.</p>
-
-        <p>Räume und Situationen, die sich aus den Straßenkreuzungen und kleinen Plätzen ergeben, Farben und Strukturen,
-            die Lichter der Fahrzeuge und das Verschwommene der abendlichen Bewegungen, das Öffentliche und das Private,
-            Gerüche, Abgase und der Lärm des dunkelnden Limas, und wahrscheinlich noch vieles mehr, haben sich in acht
-            Mittelformatnegativen eingebrannt.</p>
-
-        <p class="bookstyle">Bei den abendlichen Touren durch Barranco glichen viele Situationen Bildern und Szenen
-            schon so oder so ähnlich Erlebtem, als wären sie Erinnerungen aus einem Fundus urbaner Erfahrungen, die sich
-            einem unaufhörlich aufdrängten, wie die mit Graffiti besprühte Grundstücksmauer oder die grell beleuchtete
-            und schwer bewachte Militärmauer an der Hauptstraße nach Chorrillos.</p>
-
-        <p>Noch heute höre, rieche und atme ich das Viertel, wenn ich mich mit den Bildern beschäftige, muss mich
-            geradezu der Lebendigkeit der Erinnerungen erwehren. Das Patchwork des frisch betonierten Straßenbelages mit
-            den Abdrücken menschlicher und tierischer Existenz,<br/> die kleinen Kneipen, grell mit Neon
-            beleuchtet,<br/> die alte Tankstelle mitten auf der Straße,<br/> die Liebespärchen und die Einsamen,<br/>
-            der Kokshändler mit seinem Sohn,<br/> die unentwegt schuftenden Gemüseverkäufer,<br/> die Straßenhändler mit
-            ihren Verkaufswägelchen,<br/> die mit betäubender Gewalt an einem vorbei donnernden Busse,<br/> die alten
-            amerikanischen Autos,<br/> die notorischen Nachtschwärmer,<br/> die getrieben nach Hause Eilenden,<br/> der
-            Müll in der Pfütze am Straßenrand,<br/> die sorgfältig verknoteten Plastiktüten,</p>
-
-        <p>die Lichter, das Licht, die Farben,<br/> der Markt, die Gassen, die Farben,<br/> der Geruch, der Dunst, die
-            Farben,<br/> der nebelig feuchte Winter in Lima,<br/> die Farben ...</p>
-
-        <p>ewiges Barranco</p>
+    <aside class="sidebar" id="sidebar-s2" role="complementary">
+        <div class="info">
+            <h4>aside</h4>
+        </div>
+        <div class="module">
+            <div class="module-title">
+                <h4 class="title">Form</h4>
+            </div>
+            <div class="module-body">
+                <form>
+                    <fieldset>
+                        <legend>Legend</legend>
+                        <label>Label name</label>
+                        <input type="text" placeholder="Type something…" /> <span class="help-block">Example block-level help text here.</span>
+                        <label class="checkbox"> <input type="checkbox" /> Check me out </label>
+                        <button class="button-primary" type="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="module">
+            <div class="module-title">
+                <h4 class="title">Text</h4>
+            </div>
+            <div class="module-body">
+                <h4>article heading</h4>
+                <p>Ewiges Barranco - pathetisch klingender Name für ein paar Nachtaufnahmen eines Stadtviertels, welches
+                    eher morbide und heruntergekommen anmutet - eben wie ein Abgrund/Abhang - als besonders für die
+                    Ewigkeit bestimmt.</p>
+                </div>
+        </div>
+        <div class="module">
+            <div class="module-title">
+                <h4 class="title">List</h4>
+            </div>
+            <div class="module-body">
+                <ul>
+                    <li><a href="https://twitter.com/" target="_blank" title="twitter"><span class="fa fa-twitter fa-fw"></span> twitter</a></li>
+                    <li><a href="https://plus.google.com/" target="_blank" title="google plus"><span class="fa fa-google-plus fa-fw"></span> google plus</a></li>
+                    <li><a href="https://github.com/" target="_blank" title="github"><span class="fa fa-github fa-fw"></span> github</a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank" title="facebook"><span class="fa fa-facebook fa-fw"></span> facebook</a></li>
+                </ul>
+            </div>
+        </div>
     </aside>
 </div>
 
-    <section class="bottom_row">
+    <section class="bottom_row" role="complementary">
         <h2>section bottom row</h2>
     </section>
 
-    <footer>
+    <footer role="contentinfo">
         <h2>footer</h2>
     </footer>
 </div>

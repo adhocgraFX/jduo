@@ -1,4 +1,6 @@
-// vertical sidebars
+// vertical off canvas sidebars:
+// aside and nav that slides from the left or right
+
 .sidebar {
 	background: whitesmoke;
 	position: absolute;
@@ -7,8 +9,8 @@
 	z-index: 1000;
 }
 
-// Vertical sidebar and nav that slides from the left or right
 // krumme Zahl: 320 px / 16 = 20em - 4em für buttons = 16em
+// nav switches between vertical and horizontal menu
 
 nav {
 	left: -16em;
@@ -28,7 +30,7 @@ aside {
 	}
 }
 
-/* Push classes applied to the body */
+// Push classes applied to the body
 .sidebar-push {
 	overflow-x: hidden;
 	position: relative;
@@ -154,14 +156,10 @@ aside {
 
 	// buttons
 	#showLeftPush {
-		display: none;
-		width:0;
-		height: 0;
+		.visuallyhidden
 	}
 
 	#showRightPush {
-		display: none;
-		width:0;
-		height: 0;
+		.visuallyhidden
 	}
 }
