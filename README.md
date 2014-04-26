@@ -11,8 +11,9 @@ inspired by codrops Blueprint: Slide and push Menus https://github.com/codrops/B
 
 Notwendig sind folgende 2 Dateien:
 
-* classie.min.js > 560 bytes
-* off-canvas.less > off-canvas.css > 1.61kb
+* classie.min.js                    0.560 kb
+* off-canvas.less > off-canvas.css  1.649 kb
+* =                                 2.209 kb
 
 Alle weiteren less Dateien beziehen sich auf das Layout der Demo.
 
