@@ -1,4 +1,25 @@
-// vertical off canvas sidebars:
+// mixins for standalone off-canvas.less
+//	H5BP helper classes / siehe auch j-basics.less
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+// Border Radius / siehe auch j-mixins.less
+.border-radius(@radius) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+}
+// end mixins for standalone off-canvas.less
+
+
+// vertical off-canvas sidebars:
 // aside and nav that slides from the left or right
 
 .sidebar {
@@ -77,7 +98,8 @@ aside {
 
 #showLeftPush, #showRightPush {
 	border: none;
-	background: lightslategray;
+	.border-radius(0); // override buttons rounded corners
+	background: slategray;
 	color: white;
 	padding: .1em;
 	display: block;
@@ -88,17 +110,63 @@ aside {
 	font-size: 1em;
 
 	&:hover {
-		background: slategray;
+		background: lightslategray;
 	}
 
 	&.active {
 		background: darkslategray;
+		color: cornsilk;
 	}
 
 	&.disabled {
 		background: gray;
 		pointer-events: none;
 	}
+}
+
+//icons
+#showLeftPush {
+
+	&:before {
+		display: inline-block;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 2em;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		content: "\f0c9";
+	}
+
+}
+
+#showRightPush {
+
+	&:before {
+		display: inline-block;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 2em;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		content: "\f191";
+	}
+
+	&.active:before {
+		display: inline-block;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 2em;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		content: "\f152";
+	}
+
 }
 
 // fallback / via modernizr
@@ -121,18 +189,6 @@ aside {
 			width: 38.2%; // goldener schnitt
 		}
 	}
-}
-
-//	H5BP helper classes / siehe auch j-basics.less
-.visuallyhidden {
-	border: 0;
-	clip: rect(0 0 0 0);
-	height: 1px;
-	margin: -1px;
-	overflow: hidden;
-	padding: 0;
-	position: absolute;
-	width: 1px;
 }
 
 // media queries
