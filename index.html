@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Jduo by adhocgraFX</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Jduo</h1>
+        <p>super lightweight off-canvas sketch for rwd templates</p>
+
+        <p class="view"><a href="https://github.com/adhocgraFX/jduo">View the Project on GitHub <small>adhocgraFX/jduo</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/adhocgraFX/jduo/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/adhocgraFX/jduo/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/adhocgraFX/jduo">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="jduo" class="anchor" href="#jduo"><span class="octicon octicon-link"></span></a>jduo</h1>
+
+<h3>
+<a name="super-lightweight-off-canvas-sketch-for-rwd-templates" class="anchor" href="#super-lightweight-off-canvas-sketch-for-rwd-templates"><span class="octicon octicon-link"></span></a>Super lightweight off-canvas sketch for rwd templates.</h3>
+
+<p>Jduo ist eine kleine Skizze einer möglichst einfach zu implementierenden off-canvas Funktionalität.</p>
+
+<p>inspired by codrops Blueprint: Slide and push Menus <a href="https://github.com/codrops/Blueprint-SlidePushMenus">https://github.com/codrops/Blueprint-SlidePushMenus</a></p>
+
+<h3>
+<a name="how-to-" class="anchor" href="#how-to-"><span class="octicon octicon-link"></span></a>How to ..</h3>
+
+<p>Notwendig sind folgende 2 Dateien:</p>
+
+<ul>
+<li>classie.min.js: 0.56 kb</li>
+<li>off-canvas.less &gt; off-canvas.css: 2.50 kb</li>
+<li>= 3.06 kb</li>
+</ul><p>Alle weiteren less Dateien beziehen sich auf das Layout der Demo.</p>
+
+<p>In der index.html wird gezeigt, wie den beiden Elementen nav und aside die off-canvas Funktionalität zugewiesen wird.</p>
+
+<h3>
+<a name="das-grundprinzip" class="anchor" href="#das-grundprinzip"><span class="octicon octicon-link"></span></a>Das Grundprinzip</h3>
+
+<p>In den üblichen grid-layouts besitzen die container-divs im Allgemeinen die Eigenschaften float: left und position: relative.
+Im mobile first Ansatz wird die Breite auf width: 100% gesetzt.
+Sie wird mittels media queries dann für größere devices differenziert, z.B. in ein 2-Spaltensystem von 66.66% zu 33.33%.
+Die container-divs, die man für kleinere devices in den off-canvas setzen will, muss man nun für die schmalen Breiten via media queries aus diesem System herausbrechen, indem man ihnen position: absolute zuweist.
+Das ist im Prinzip alles.</p>
+
+<p>Funktioniert auf allen Browsern, die media queries und javascript verstehen.</p>
+
+<p>Für den Fall der Fälle habe ich eine einfache .js &gt; .no-js (modernizr) Variante als fallback beigefügt:</p>
+
+<ul>
+<li>Grids werden für kleine devices auf float: left, position: relative und width: 100% gesetzt,
+dann werden alle container-divs vertikal aufgereiht dargestellt.</li>
+<li>Toggler buttons werden unsichtbar gesetzt.</li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/adhocgraFX">adhocgraFX</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
