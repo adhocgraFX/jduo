@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3dfa63c-f8d3-4a58-802a-c7122a1ed5b7" name="Default" comment="Merge remote-tracking branch 'origin/master' into gh-pages&#10;&#10;Conflicts:&#10;&#9;.idea/libraries/Generated_files.xml&#10;&#9;index.html&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="f3dfa63c-f8d3-4a58-802a-c7122a1ed5b7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="5bb592a3-bb20-4e45-a171-7f04a905f81d" name="Failed commit: Default" comment="Merge remote-tracking branch 'origin/master' into gh-pages&#10;&#10;Conflicts:&#10;&#9;.idea/libraries/Generated_files.xml&#10;&#9;index.html&#10;" />
     <list id="f7c670c1-20ff-4e49-a509-72471a05d77d" name="Failed commit: Failed commit: Default" comment="new trial" />
@@ -27,10 +30,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="13" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="5075">
+            <state line="45" column="8" selection-start="1942" selection-end="1942" vertical-scroll-proportion="-16.026316" vertical-offset="696" max-vertical-offset="4669">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="24" selection-start="1626" selection-end="1626" vertical-scroll-proportion="-16.026316" vertical-offset="609" max-vertical-offset="5336">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="typo.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/typo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="23" selection-start="1535" selection-end="1535" vertical-scroll-proportion="1.2966194" vertical-offset="0" max-vertical-offset="5075">
               <folding />
             </state>
           </provider>
@@ -66,7 +87,9 @@
         <option value="$PROJECT_DIR$/css/off-canvas-demo.less" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.gitattributes" />
+        <option value="$PROJECT_DIR$/readme.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/typo.html" />
       </list>
     </option>
   </component>
@@ -89,7 +112,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -267,13 +290,18 @@
       <created>1399660934651</created>
       <updated>1399660934651</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="new trial">
+      <created>1399734890798</created>
+      <updated>1399734890798</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -289,7 +317,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -425,9 +452,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/j-template.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1363">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1189">
+        <state line="18" column="0" selection-start="477" selection-end="477" vertical-scroll-proportion="0.27657267" vertical-offset="267" max-vertical-offset="1189">
           <folding />
         </state>
       </provider>
@@ -437,7 +471,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="5075">
+        <state line="45" column="8" selection-start="1942" selection-end="1942" vertical-scroll-proportion="-16.026316" vertical-offset="696" max-vertical-offset="4669">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="24" selection-start="1626" selection-end="1626" vertical-scroll-proportion="-16.026316" vertical-offset="609" max-vertical-offset="5336">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="23" selection-start="1535" selection-end="1535" vertical-scroll-proportion="1.2966194" vertical-offset="0" max-vertical-offset="5075">
           <folding />
         </state>
       </provider>
