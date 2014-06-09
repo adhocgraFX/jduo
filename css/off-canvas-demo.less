@@ -2,6 +2,7 @@
 // nur zur demo
 
 header {
+	.order(1);
 	height: 4em;
 	background: gainsboro;
 
@@ -43,25 +44,64 @@ h2 {
 	.visuallyhidden
 }
 
+.wrapper {
+	.flexbox;
+	.flex-flow(column wrap);
+}
+
+.wrapper-push {
+	.order(3);
+}
+
 aside {
 
 }
 
 footer {
+	.order(6);
 	background: @clouds-dark;
 }
 
 section {
 	&.head_row {
-		background: wheat;
+		.order(4);
+		background: @gainsboro-light;
+
+		.flexbox;
+		.flex-flow(row wrap);
+		.justify-content(space-around);
+		align-items: stretch;
+		align-content: space-around;
+
+		.module {
+			.flex(1);
+			min-width: 16em;
+			max-width: 32em;
+			margin: 1em;
+		}
 	}
 
 	&.bottom_row {
-		background: goldenrod;
+		.order(5);
+		background: @gainsboro-light;
+
+		.flexbox;
+		.flex-flow(row wrap);
+		.justify-content(space-around);
+		align-items: stretch;
+		align-content: space-around;
+
+		.module {
+			.flex(1);
+			min-width: 16em;
+			max-width: 48em;
+			margin: 1em;
+		}
 	}
 }
 
 nav {
+	.order(2);
 
 	ul.menu-style {
 		margin: 0;
@@ -102,6 +142,7 @@ nav {
 	margin-bottom: 1.5em;
 	display: block;
 	font-size: 1em;
+	background: white;
 
 	a:hover, a:active {
 		text-decoration: underline !important;
@@ -114,7 +155,6 @@ nav {
 		overflow: hidden;
 		height: 100%;
 		color: @gray-dark;
-		background: white;
 
 		div {
 			width: 100%;
@@ -152,6 +192,7 @@ nav {
 	.wrapper-push {
 		width: 90%;
 		max-width: 55em;
+		.order(4);
 	}
 
 	header {
@@ -160,6 +201,12 @@ nav {
 
 		h1 {
 			font-size: 2em;
+		}
+	}
+
+	section {
+		&.head_row {
+			.order(3);
 		}
 	}
 
