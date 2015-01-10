@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3dfa63c-f8d3-4a58-802a-c7122a1ed5b7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\jduo\.idea\inspectionProfiles\Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\jduo\.idea\inspectionProfiles\profiles_settings.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/j-template.css" afterPath="$PROJECT_DIR$/css/j-template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/off-canvas.less" afterPath="$PROJECT_DIR$/css/off-canvas.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="5bb592a3-bb20-4e45-a171-7f04a905f81d" name="Failed commit: Default" comment="Merge remote-tracking branch 'origin/master' into gh-pages&#10;&#10;Conflicts:&#10;&#9;.idea/libraries/Generated_files.xml&#10;&#9;index.html&#10;" />
     <list id="f7c670c1-20ff-4e49-a509-72471a05d77d" name="Failed commit: Failed commit: Default" comment="new trial" />
     <ignored path="jduo.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,46 +34,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="210" column="0" selection-start="9312" selection-end="9312" vertical-scroll-proportion="6.1165047" vertical-offset="0" max-vertical-offset="5784">
+            <state vertical-scroll-proportion="-13.935484" vertical-offset="1872" max-vertical-offset="5784">
+              <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="j-flex-grid.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/j-flex-grid.less">
+      <file leaf-file-name="readme.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="32" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0" vertical-offset="1512" max-vertical-offset="1728">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1034" max-vertical-offset="4440">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="off-canvas.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/off-canvas.less">
+      <file leaf-file-name="typo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="19" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="1896" max-vertical-offset="6120">
+            <state vertical-scroll-proportion="-16.612904" vertical-offset="1021" max-vertical-offset="4200">
+              <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="off-canvas-demo.less" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="off-canvas-demo.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/off-canvas-demo.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="225" column="0" selection-start="2764" selection-end="3073" vertical-scroll-proportion="0.0" vertical-offset="5400" max-vertical-offset="6168">
+            <state vertical-scroll-proportion="-8.5161295" vertical-offset="0" max-vertical-offset="6168">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jf-pocketgrid.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/jf-pocketgrid.less">
+      <file leaf-file-name="off-canvas.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/off-canvas.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="1" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1752">
+            <state vertical-scroll-proportion="0.6831683" vertical-offset="1296" max-vertical-offset="6168">
+              <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -85,30 +96,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/default.css" />
-        <option value="$PROJECT_DIR$/css/component.css" />
-        <option value="$PROJECT_DIR$/css/component.less" />
-        <option value="$PROJECT_DIR$/css/default.less" />
-        <option value="$PROJECT_DIR$/css/j-variables.less" />
-        <option value="$PROJECT_DIR$/js/classie.js" />
-        <option value="$PROJECT_DIR$/js/modernizr.custom.js" />
-        <option value="$PROJECT_DIR$/css/j-basics.less" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/css/off-canvas.less" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/.gitattributes" />
-        <option value="$PROJECT_DIR$/css/j-typo.less" />
-        <option value="$PROJECT_DIR$/readme.html" />
-        <option value="$PROJECT_DIR$/typo.html" />
-        <option value="$PROJECT_DIR$/css/j-template.less" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/off-canvas-demo.less" />
-        <option value="$PROJECT_DIR$/css/jf-pocketgrid.less" />
-        <option value="$PROJECT_DIR$/css/j-flex-grid.less" />
       </list>
     </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
@@ -117,10 +112,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="877" />
+    <option name="width" value="1043" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -136,7 +130,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -148,7 +142,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -167,8 +160,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jduo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jduo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,121 +202,154 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="ea60764c-b590-4cff-8124-bee11d3b5490" server_name="flex3">
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <configuration useDefault="true">C:\Users\Johannes Hock\AppData\Roaming\Subversion</configuration>
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration>C:\Users\Johannes Hock\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f3dfa63c-f8d3-4a58-802a-c7122a1ed5b7" name="Default" comment="" />
       <created>1398154794001</created>
+      <option name="number" value="Default" />
       <updated>1398154794001</updated>
     </task>
     <task id="LOCAL-00001" summary="more styles added">
       <created>1398524057948</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
       <updated>1398524057948</updated>
     </task>
     <task id="LOCAL-00002" summary="readme">
       <created>1398525149620</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
       <updated>1398525149620</updated>
     </task>
     <task id="LOCAL-00003" summary="readme">
       <created>1398527694475</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
       <updated>1398527694475</updated>
     </task>
     <task id="LOCAL-00004" summary="readme">
       <created>1398529235178</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
       <updated>1398529235178</updated>
     </task>
     <task id="LOCAL-00005" summary="no js version added">
       <created>1398540138595</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
       <updated>1398540138595</updated>
     </task>
     <task id="LOCAL-00006" summary="icon toggle right">
       <created>1398542957800</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
       <updated>1398542957800</updated>
     </task>
     <task id="LOCAL-00007" summary="icons toggle in css">
       <created>1398601824218</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
       <updated>1398601824218</updated>
     </task>
     <task id="LOCAL-00008" summary="some html and css mod">
       <created>1399054561508</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
       <updated>1399054561515</updated>
     </task>
     <task id="LOCAL-00009" summary="font via brick">
       <created>1399603602580</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
       <updated>1399603602580</updated>
     </task>
     <task id="LOCAL-00010" summary="update">
       <created>1399644730757</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
       <updated>1399644730757</updated>
     </task>
     <task id="LOCAL-00011" summary="update">
       <created>1399660853140</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
       <updated>1399660853140</updated>
     </task>
     <task id="LOCAL-00012" summary="readme">
       <created>1399660934651</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
       <updated>1399660934651</updated>
     </task>
     <task id="LOCAL-00013" summary="new trial">
       <created>1399734890798</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
       <updated>1399734890798</updated>
     </task>
     <task id="LOCAL-00014" summary="2 pages added">
       <created>1399821716343</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
       <updated>1399821716343</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="organisation">
+      <created>1408168684073</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1408168684073</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="877" y="0" width="1043" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25697425" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20948827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35300103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -335,6 +376,9 @@
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -356,329 +400,400 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master' into gh-pages&#10;&#10;Conflicts:&#10;&#9;.idea/libraries/Generated_files.xml&#10;&#9;index.html&#10;" />
     <MESSAGE value="new trial" />
     <MESSAGE value="2 pages added" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 pages added" />
+    <MESSAGE value="organisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="organisation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="39" selection-start="1641" selection-end="1641" vertical-scroll-proportion="0.0" vertical-offset="911" max-vertical-offset="6989">
+        <state vertical-scroll-proportion="0.0" vertical-offset="911" max-vertical-offset="6989">
+          <caret line="42" column="39" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/j-flex-grid.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="32" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0" vertical-offset="1042" max-vertical-offset="2088">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1042" max-vertical-offset="2088">
+          <caret line="63" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/off-canvas-demo.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="226" column="16" selection-start="2933" selection-end="2933" vertical-scroll-proportion="0.0" vertical-offset="5653" max-vertical-offset="7453">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5653" max-vertical-offset="7453">
+          <caret line="226" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="30" selection-start="4141" selection-end="4141" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6989">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6989">
+          <caret line="97" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/typo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="36" selection-start="3233" selection-end="3233" vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="5075" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="5075">
+          <caret line="68" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="2727" selection-end="2727" vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="5365" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="5365">
+          <caret line="60" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0" vertical-offset="812" max-vertical-offset="1189" />
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
+        <state vertical-scroll-proportion="0.0" vertical-offset="812" max-vertical-offset="1189">
+          <caret line="28" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="30" selection-start="4141" selection-end="4141" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6989">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6989">
+          <caret line="97" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/typo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="36" selection-start="3233" selection-end="3233" vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="5075" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="5075">
+          <caret line="68" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="2727" selection-end="2727" vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="5365" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="5365">
+          <caret line="60" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0" vertical-offset="812" max-vertical-offset="1189" />
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
+        <state vertical-scroll-proportion="0.0" vertical-offset="812" max-vertical-offset="1189">
+          <caret line="28" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="214" column="18" selection-start="9466" selection-end="9466" vertical-scroll-proportion="0.0" vertical-offset="6206" max-vertical-offset="6989">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6206" max-vertical-offset="6989">
+          <caret line="214" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/off-canvas-demo.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="25" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="7453" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="7453">
+          <caret line="78" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/jf-pocketgrid.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2117" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2117">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/j-variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="11" selection-start="790" selection-end="806" vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="3973" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="3973">
+          <caret line="26" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/j-flex-grid.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="1" selection-start="1300" selection-end="1300" vertical-scroll-proportion="0.0" vertical-offset="1055" max-vertical-offset="2059" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1055" max-vertical-offset="2059">
+          <caret line="56" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/j-mixins.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5162" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5162">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/j-template.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="433" max-vertical-offset="1450" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="433" max-vertical-offset="1450">
+          <caret line="40" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="4" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6989">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6989">
+          <caret line="19" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/off-canvas-demo.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="25" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0" vertical-offset="1914" max-vertical-offset="7453" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1914" max-vertical-offset="7453">
+          <caret line="78" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/jf-pocketgrid.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2117" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2117">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/j-variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="11" selection-start="790" selection-end="806" vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="3973" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="3973">
+          <caret line="26" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/j-flex-grid.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="1" selection-start="1300" selection-end="1300" vertical-scroll-proportion="0.0" vertical-offset="1055" max-vertical-offset="2059" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1055" max-vertical-offset="2059">
+          <caret line="56" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/j-mixins.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5162" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5162">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/j-template.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="433" max-vertical-offset="1450" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="433" max-vertical-offset="1450">
+          <caret line="40" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="4669">
+        <state vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="4669">
+          <caret line="2" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="17" selection-start="2407" selection-end="2407" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4669">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4669">
+          <caret line="58" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="17" selection-start="2407" selection-end="2407" vertical-scroll-proportion="0.0" vertical-offset="1044" max-vertical-offset="4669">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1044" max-vertical-offset="4669">
+          <caret line="58" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="5075">
+        <state vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="5075">
+          <caret line="1" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0" vertical-offset="783" max-vertical-offset="7482">
+        <state vertical-scroll-proportion="0.0" vertical-offset="783" max-vertical-offset="7482">
+          <caret line="27" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1189" />
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1189">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2494">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2494">
+          <caret line="27" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="0" selection-start="6639" selection-end="6639" vertical-scroll-proportion="0.0" vertical-offset="4002" max-vertical-offset="5220">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4002" max-vertical-offset="5220">
+          <caret line="138" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="0" selection-start="6639" selection-end="6639" vertical-scroll-proportion="0.0" vertical-offset="4002" max-vertical-offset="5220">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4002" max-vertical-offset="5220">
+          <caret line="138" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="35" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5104">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5104">
+          <caret line="29" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="35" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5104">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5104">
+          <caret line="29" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="28" selection-start="2067" selection-end="2067" vertical-scroll-proportion="0.0" vertical-offset="1189" max-vertical-offset="4756">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1189" max-vertical-offset="4756">
+          <caret line="41" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="4756">
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="4756">
+          <caret line="17" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="60" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3161">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3161">
+          <caret line="11" column="60" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/j-typo.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1178" selection-end="1178" vertical-scroll-proportion="1.3598691" vertical-offset="0" max-vertical-offset="17951" />
+        <state vertical-scroll-proportion="1.3598691" vertical-offset="0" max-vertical-offset="17951">
+          <caret line="43" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/j-variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="11" selection-start="790" selection-end="806" vertical-scroll-proportion="0.43655914" vertical-offset="348" max-vertical-offset="3973" />
+        <state vertical-scroll-proportion="0.43655914" vertical-offset="348" max-vertical-offset="3973">
+          <caret line="26" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/j-mixins.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5162" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5162">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/j-template.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="611" selection-end="611" vertical-scroll-proportion="0.78172046" vertical-offset="433" max-vertical-offset="1450" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="2727" selection-end="2727" vertical-scroll-proportion="0.47437295" vertical-offset="1305" max-vertical-offset="5365" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="36" selection-start="3233" selection-end="3233" vertical-scroll-proportion="0.7273719" vertical-offset="1305" max-vertical-offset="5075" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.5911063" vertical-offset="267" max-vertical-offset="1189" />
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
+        <state vertical-scroll-proportion="0.78172046" vertical-offset="433" max-vertical-offset="1450">
+          <caret line="40" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/jf-pocketgrid.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="1" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="1015" max-vertical-offset="2117">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/off-canvas-demo.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="225" column="0" selection-start="2764" selection-end="3073" vertical-scroll-proportion="0.0" vertical-offset="6525" max-vertical-offset="7453">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1752">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/j-flex-grid.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="32" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0" vertical-offset="1042" max-vertical-offset="2088">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1512" max-vertical-offset="1728">
+          <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="672" max-vertical-offset="984">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1034" max-vertical-offset="4440">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/off-canvas.less">
+    <entry file="file://$PROJECT_DIR$/typo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="19" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="1680" max-vertical-offset="7395">
+        <state vertical-scroll-proportion="-16.612904" vertical-offset="1021" max-vertical-offset="4200">
+          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="210" column="0" selection-start="9312" selection-end="9312" vertical-scroll-proportion="6.1165047" vertical-offset="0" max-vertical-offset="5784">
+        <state vertical-scroll-proportion="-13.935484" vertical-offset="1872" max-vertical-offset="5784">
+          <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/off-canvas-demo.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5161295" vertical-offset="0" max-vertical-offset="6168">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/off-canvas.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6831683" vertical-offset="1296" max-vertical-offset="6168">
+          <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-
