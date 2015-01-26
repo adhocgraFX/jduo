@@ -60,22 +60,20 @@ aside {
 
 // für links
 .sidebar-push-toright {
-	-webkit-transform: translateX(16em);
-	transform: translateX(16em);
+	left: 16em;
 }
 
 // für rechts
 .sidebar-push-toleft {
-	-webkit-transform: translateX(-16em);
-	transform: translateX(-16em);
+	left: -16em;
 }
 
 // Transitions
-.sidebar-push-toleft,
-.sidebar-push-toright,
+.sidebar,
 .sidebar-push {
-	-webkit-transition: -webkit-transform 0.3s ease-out;
-	transition: transform 0.3s ease-out;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 
 .wrapper-push, .wrapper {
